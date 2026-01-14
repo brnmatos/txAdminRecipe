@@ -343,7 +343,7 @@ tasks:
     src: ./tmp/npwd_qbx_mail.zip
 
   - action: download_github2
-    dest: ./resources/[standalone]/safecracker
+    dest: ./resources/[standalone]/safecracker2
     ref: main
     src: https://github.com/qbox-project/safecracker
 
