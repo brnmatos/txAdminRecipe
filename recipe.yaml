@@ -35,7 +35,7 @@ tasks:
 
   # STANDALONE
   - action: download_github
-    src: https://github.com/citizenfx/cfx-server-data
+    src: https://github.com/brnmatos/cfx-server-data
     subpath: resources
     dest: ./resources/[cfx-default]
   - action: remove_path
