@@ -346,7 +346,11 @@ tasks:
     dest: ./resources/[standalone]/teste-safecracker2
     ref: main
     src: https://github.com/qbox-project/safecracker
-
+  
+  - action: download_github2
+    dest: ./resources/[standalone]/teste-safecracker2
+    ref: main
+    src: https://github.com/qbox-project/safecracker
   # Clean up
   - action: remove_path
     path: ./tmp
