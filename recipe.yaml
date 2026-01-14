@@ -342,12 +342,12 @@ tasks:
     dest: ./resources/[npwd-apps]
     src: ./tmp/npwd_qbx_mail.zip
 
-  - action: download_github2
+  - action: download_github
     dest: ./resources/[standalone]/safecracker2
     ref: main
     src: https://github.com/qbox-project/safecracker
   
-  - action: download_github2
+  - action: download_github
     dest: ./resources/[standalone]/teste-safecracker2
     ref: main
     src: https://github.com/qbox-project/safecracker
